@@ -29,7 +29,13 @@
   border: none;
 }
 
-.section-title {
+.section-title { font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.text-center{
+  text-align: center;
 }
 
 /* header */
@@ -82,8 +88,7 @@ nav li a {
 .banner-greetings {
   font-size: 45px;
   font-weight: 600;
-  
-  }
+}
 
 .banner-title {
   font-weight: bold;
@@ -100,11 +105,15 @@ nav li a {
 
 /* main styles */
 
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
 
 /* ABOUT STYLES */
 
@@ -115,11 +124,73 @@ main{
   margin-top: 130px;
 }
 
-.about-items{
-    display: flex;
-    justify-content: space-around;
+.about-items {
+  display: flex;
+  justify-content: space-around;
 }
 
-.item-description{
-    font-weight: 600;
+.item-description {
+  font-weight: 600;
+}
+
+/* skill section styles */
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  padding: 30px;
+  margin: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section  */
+
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+.experience-sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.experience-description, .experience-sub-title{
+  color: #757575;
+}
+
+.resume hr{
+  margin: 30px 5px;
+}
+
+.resume-download-CV{
+  margin-top: 50px;
+}
+
+/* footer styles */
+
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+
+.footer-colume{
+  width: 50%;
+
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+
 }
